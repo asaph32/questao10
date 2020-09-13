@@ -1,0 +1,38 @@
+package quest10;
+
+public class Cadastrarproduto {
+    Nome da string;
+    String marcasDoProdutos;
+    String comprasDoProdutos;
+    String Venda;
+
+    public Cadastrarproduto (String nomesDosProdutos,String marcasDoProdutos,String lotesDoProduto,String compras,String vendas);
+    this.nomes=nomes;
+    this.marcas=marcas;
+    this.lotes=lotesDoProduto;
+    this.compras=compras;
+    this.vendas=vendas;
+
+    public void atualizar (String dado,String valorNovo) {
+        if(dados==nome) {
+            System.out.println("Informe o nome do produto:");
+            String nome = teclado.nextLine();
+        } else if(dados==marca) {
+            System.out.println("Marca:",marcasDoProdutos);
+        } else if (dados==lotes) {
+            System.out.println("lotes"+valorNovo);
+        } else if (dados==vendas) {
+            System.out.println("vendas:"+vendas);
+        }
+       
+    }
+    public void listrarProduto() {
+        System.out.println("nomes:"+this.nomesDosProdutos);
+        System.out.println("marcas:"+this.marcasDoProdutos);
+        System.out.println("lotes:"+this.lotesDoProduto);
+        System.out.println("Compras:"+this.compras);
+        System.out.println("Vendas:"+this.vendas);
+    }
+    
+    
+}
